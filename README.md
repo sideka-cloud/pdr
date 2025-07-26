@@ -12,4 +12,5 @@ In the PDR.ps1 file, if there is 1 IP address detected to be carrying out a brut
 
 Open Task Scheduler > Import Task > import file pdr.xml > select pdr and Run
 
+Open Local Security Policy > Local Policies > Audit Policy > Audit Logon Events > check Success and Failure > OK >>> Open CMD > run: gpupdate /force
 
